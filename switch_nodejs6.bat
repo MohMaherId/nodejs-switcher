@@ -1,0 +1,4 @@
+SETX SASS_BINARY_PATH "%%SASS_BINARY_NODE6%%"
+SETX NODEJS "%%NODEJS_6%%"
+cd %NODEJS_6%
+%NODEJS_6%\npm config set prefix %NODEJS_6%
